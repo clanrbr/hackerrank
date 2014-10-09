@@ -37,26 +37,13 @@ public class Mainclass7 {
     	}
     	
     	String status="NO";
-    	
     	if (sizeWord%2==0) {
     		if ( (singleResult == 0) && (result==0) ) {
     			status="YES";
-    		} else {
-    			status="NO";
     		}
     	} else {
-    		if ( singleResult==0 ) {
-    			if ( result==1 ) {
-    				status="YES";
-    			} else {
-    				status="NO";
-    			}
-    		} else {
-    			if ( (singleResult==1) && (result==0) ) {
-    				status="YES";
-    			} else {
-    				status="NO";
-    			}
+    		if ( ( (singleResult==0) && (result==1) ) || ( (singleResult==1) && (result==0) ) ) {
+    			status="YES";
     		}
     	}
     	
