@@ -12,8 +12,9 @@ public class MainClass38 {
             int countB = 0;
             while( (j < n) && (t > q[j]) ) {
                 q[j-1] = q[j]; j++; countB++;
-                if( countB > 2 )
-                    return -1;
+                if( countB > 2 ) {
+                	return -1;
+                }
             }
             q[j-1] = t; numBribes += countB;
         }
