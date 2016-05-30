@@ -1,9 +1,9 @@
 Common Child
 =============
 
-Given two strings  and  of equal length, what's the longest string () that can be constructed such that it is a child of both? 
+Given two strings  and  of equal length, what's the longest string (S) that can be constructed such that it is a child of both? 
 
-A string  is said to be a child of a string  if  can be formed by deleting 0 or more characters from . 
+A string x is said to be a child of a string y if x can be formed by deleting 0 or more characters from y. 
 
 For example, ABCD and ABDC has two children with maximum length 3, ABC and ABD. Note that we will not consider ABCD as a common child because C doesn't occur before D in the second string.
 
@@ -17,7 +17,7 @@ All characters are upper cased and lie between ASCII values 65-90. The maximum l
 
 Output format
 
-Length of string .
+Length of string S.
 
 Sample Input #0
 ```
