@@ -1,0 +1,7 @@
+SELECT * FROM (
+    SELECT CITY, length(CITY) FROM STATION ORDER by length(CITY) ASC, CITY ASC LIMIT 1
+) low
+union all
+SELECT * FROM (
+    SELECT CITY, length(CITY) FROM STATION ORDER by length(CITY) DESC, city ASC LIMIT 1
+) high
