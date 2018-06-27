@@ -14,8 +14,6 @@ public class MainClass24 {
             topic[topic_i] = in.next();
         }
         
-        
-        
         String lastHigher="";
         int numberOfOnes=0;
         int numberTeams=0;
