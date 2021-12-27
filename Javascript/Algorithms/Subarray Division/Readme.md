@@ -51,7 +51,7 @@ Sample Input 0
 Sample Output 0
 ```
 2
-``
+```
 Explanation 0
 
 Lily wants to give Ron m = 2 squares summing to d = 3. The following two segments meet the criteria:
